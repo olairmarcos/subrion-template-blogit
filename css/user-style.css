@@ -4,3 +4,46 @@
 * This styles will override default styles of template
 *
 */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: rgba(8, 7, 7, 0.70);
+    border: none;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box;
+		
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: -15px;
+    -webkit-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    display: block;
+    visibility: hidden;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+   border-color: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 22px rgba(0,0,0,0.5);
+    box-shadow: 0 0 22px rgba(0,0,0,0.5);
+		-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+}
